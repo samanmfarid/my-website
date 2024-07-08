@@ -1,0 +1,144 @@
+body{
+    direction: rtl;
+    /* background-color: #ECEFF1; */
+}
+@font-face {
+    font-family: iraniansans;
+    src: url(../Fonts/A-Iranian-Sans/Iranian\ Sans.ttf);
+}
+
+.firstLayer{
+    display: block;
+    width: 100vw;
+    height: 9vh;
+    background-color: #81D4FA;
+    float: right;
+}
+.firstLayer > #mainNav{
+
+}
+
+.firstLayer > #mainNav > .navItems{
+    
+}
+
+.firstLayer > #mainNav > .navItems > .navItem{
+float: right;
+margin: 30px 50px 0px 15px;
+
+}
+
+.firstLayer > #mainNav > .navItems > .navItem > .navLink{
+text-decoration: none;
+color: #333;
+border-bottom: 3px solid transparent;
+padding: 10px 10px 10px 10px;
+box-sizing: border-box;
+font-family: iraniansans;
+}
+
+.firstLayer > #mainNav > .navItems > .navItem > .navLink:hover{
+color: #E53935;
+transition: all 0.5s;
+border-bottom: 3px solid red;
+box-shadow: 10px 10px  5px #333;
+}
+.firstLayer > .clear{
+    clear: both;
+}
+
+.biographyContainer{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    margin: 40px 15px 20px 15px;
+    word-spacing: 5px;
+    line-height: 30px;
+    flex-wrap: wrap;
+}
+.biographyContainer > .biographyTitle{
+    margin: 30px 10px 30px 0px;
+    font-family: iraniansans;
+    padding: 10px 50px 0px 0px;
+    background-color: antiquewhite;
+    width: 160px;
+    height: 50px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+.biographyContainer > .biographyText{
+    padding: 20px 10px 10px 10px;
+    font-family: iraniansans;
+}
+.skillsContainer{
+display: flex;
+margin: 20px 15px 30px 15px;
+flex-wrap: wrap;
+flex-direction: column;
+
+}
+
+.skillsContainer > .skillsTitle{
+    margin: 30px 10px 0px 0px;
+    font-family: iraniansans;
+    padding: 15px 50px 0px 10px;
+    background-color: antiquewhite;
+    display: block;
+    width: 160px;
+    height: 50px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+.skillsContainer > .skillsText{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px 10px 0px 0px;
+    padding: 0px 10px 20px 10px;
+    box-sizing: border-box;
+    word-spacing: 20px;
+    font-size: 24px;
+    
+}
+
+.skillsContainer > .languageSkillsTitle{
+    margin: 30px 10px 0px 0px;
+    font-family: iraniansans;
+    padding: 15px 50px 0px 10px;
+    background-color: antiquewhite;
+    display: block;
+    width: 160px;
+    height: 50px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+.skillsContainer >  .languageSkillsText{
+    margin: 30px 10px 0px 0px;
+    padding: 0px 10px 20px 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+    word-spacing: 20px;
+    
+}
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 15px 50px 15px;
+}
+
+.contactContainer > .contactTitle{
+    margin: 30px 10px 0px 0px;
+    font-family: iraniansans;
+    padding: 15px 30px 0px 10px;
+    background-color: antiquewhite;
+    display: block;
+    width: 160px;
+    height: 50px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+.contactContainer > .contactText{
+    font-family: iraniansans;
+    margin: 30px 10px 0px 0px;
+    padding: 0px 10px 20px 10px;
+    box-sizing: border-box;
+}

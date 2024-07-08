@@ -1,0 +1,243 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="saman masoudi">
+    <!-- <link rel="stylesheet" href="../Css/reset.css"> -->
+    <!-- <link rel="stylesheet" href="../Css/index.css"> -->
+    <style>
+        html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+        body{
+    direction: rtl;
+    /* background-color: #ECEFF1; */
+}
+@font-face {
+    font-family: iraniansans;
+    src: url(../Fonts/A-Iranian-Sans/Iranian\ Sans.ttf);
+}
+
+.firstLayer{
+    display: block;
+    width: 100vw;
+    height: 9vh;
+    background-color: #81D4FA;
+    float: right;
+}
+.firstLayer > #mainNav{
+
+}
+
+.firstLayer > #mainNav > .navItems{
+    
+}
+
+.firstLayer > #mainNav > .navItems > .navItem{
+float: right;
+margin: 30px 50px 0px 15px;
+
+}
+
+.firstLayer > #mainNav > .navItems > .navItem > .navLink{
+text-decoration: none;
+color: #333;
+border-bottom: 3px solid transparent;
+padding: 10px 10px 10px 10px;
+box-sizing: border-box;
+font-family: iraniansans;
+}
+
+.firstLayer > #mainNav > .navItems > .navItem > .navLink:hover{
+color: #E53935;
+transition: all 0.5s;
+border-bottom: 3px solid red;
+box-shadow: 10px 10px  5px #333;
+}
+.firstLayer > .clear{
+    clear: both;
+}
+
+.biographyContainer{
+    display: flex;
+    width: 100vw;
+    height: auto;
+    margin: 40px 15px 20px 15px;
+    word-spacing: 5px;
+    line-height: 30px;
+    flex-wrap: wrap;
+}
+.biographyContainer > .biographyTitle{
+    margin: 30px 10px 30px 0px;
+    font-family: iraniansans;
+    padding: 10px 50px 0px 0px;
+    background-color: antiquewhite;
+    width: 160px;
+    height: 50px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+.biographyContainer > .biographyText{
+    padding: 20px 10px 10px 10px;
+    font-family: iraniansans;
+}
+.skillsContainer{
+display: flex;
+margin: 20px 15px 30px 15px;
+flex-wrap: wrap;
+flex-direction: column;
+
+}
+
+.skillsContainer > .skillsTitle{
+    margin: 30px 10px 0px 0px;
+    font-family: iraniansans;
+    padding: 15px 50px 0px 10px;
+    background-color: antiquewhite;
+    display: block;
+    width: 160px;
+    height: 50px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+.skillsContainer > .skillsText{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 30px 10px 0px 0px;
+    padding: 0px 10px 20px 10px;
+    box-sizing: border-box;
+    word-spacing: 20px;
+    font-size: 24px;
+    
+}
+
+.skillsContainer > .languageSkillsTitle{
+    margin: 30px 10px 0px 0px;
+    font-family: iraniansans;
+    padding: 15px 50px 0px 10px;
+    background-color: antiquewhite;
+    display: block;
+    width: 160px;
+    height: 50px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+.skillsContainer >  .languageSkillsText{
+    margin: 30px 10px 0px 0px;
+    padding: 0px 10px 20px 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+    word-spacing: 20px;
+    
+}
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px 15px 50px 15px;
+}
+
+.contactContainer > .contactTitle{
+    margin: 30px 10px 0px 0px;
+    font-family: iraniansans;
+    padding: 15px 30px 0px 10px;
+    background-color: antiquewhite;
+    display: block;
+    width: 160px;
+    height: 50px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+.contactContainer > .contactText{
+    font-family: iraniansans;
+    margin: 30px 10px 0px 0px;
+    padding: 0px 10px 20px 10px;
+    box-sizing: border-box;
+}
+    </style>
+    <title>صفحه اصلی</title>
+</head>
+<body>
+    <div class="firstLayer">
+        <nav id="mainNav">
+            <ul class="navItems">
+                <li class="navItem"><a href="#" class="navLink">صفحه اصلی</a></li>
+                <li class="navItem"><a href="#" class="navLink">معرفی</a></li>
+                <li class="navItem"><a href="#" class="navLink">توانایی ها</a></li>
+                <li class="navItem"><a href="#" class="navLink">پروژه ها</a></li>
+                <li class="navItem"><a href="#" class="navLink">ارتباط با من</a></li>
+            </ul>
+        </nav>
+        <span class="clear"></span>
+    </div>
+    <div class="biographyContainer">
+        <span class="biographyTitle">معرفی</span>
+            <p class="biographyText">
+                من سامان مسعودی فرید هستم. دانشجوی رشته مهندسی کامپیوتر گرایش نرم افزار دوره کارشناسی در دانشگاه آزاد تهران شمال 
+            در تلاش برای تاسیس شرکتی در زمینه تولید محتوای ویدیویی با تمرکز بیشتر روی ساخت فیلم و بازی هستم. در حال حاضر استودیویی با نام فونیکس استودیو فعالیت میکنم 
+            راستی در پروسه ساخت یک نرم افزار هم هستم که امیدوارم بتونه مشکلات زیادی رو حل کنه
+            </p>
+    </div>
+    <div class="skillsContainer">
+        <span class="skillsTitle">مهارت ها </span>
+            <p class="skillsText">
+                HTML
+                CSS
+                Javascript
+                Premiere 
+                Photoshop
+
+            </p>
+        <span class="languageSkillsTitle">زبان ها </span>
+            <p class="languageSkillsText">
+                انگلیسی
+                فارسی
+                آلمانی 
+            </p>
+    </div>
+    <div class="contactContainer">
+        <span class="contactTitle"> راه های ارتباطی</span>
+            <p class="contactText">شماره تماس : 09125065789</p>
+            <p class="contactText">ایمیل : saman.masoudi3@gmail.com</p>
+    </div>
+</body>
+</html>
